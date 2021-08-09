@@ -9,6 +9,7 @@ As a freelance software engineer, I have to strike a daily balance between quali
 ## Getting Started
 
 - `git clone git@github.com:bullhornfixie/react-component-library-2.0.git`
+- `npm i`
 - `npm run dev`
 - open `http://localhost:3000`
 
