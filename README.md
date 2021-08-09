@@ -8,6 +8,8 @@ As a freelance software engineer, I have to strike a daily balance between quali
 
 ## Getting Started
 
+In the terminal:
+
 - `git clone git@github.com:bullhornfixie/react-component-library-2.0.git`
 - `npm i`
 - `npm run dev`
