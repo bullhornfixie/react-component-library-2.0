@@ -7,7 +7,7 @@ const Layout = ({children, backgroundColor}) => (
   <>
   <Header />
     <Flex 
-      justifyContent='center' 
+      flexDirection='column'
       height='90vh' 
       bg={backgroundColor}
     >

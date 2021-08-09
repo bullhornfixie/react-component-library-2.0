@@ -12,16 +12,14 @@ const MenuItem = styled.a`
   opacity: 1;
   &:hover {
     opacity: 0.7;
-    color: ${colors.purple};
-    cursor: pointer;
   }
 `
 
 const Home = () => {
   return (
-    <Layout backgroundColor={colors.black}>
+    <Layout backgroundColor={colors.white}>
       <Flex
-        bg={colors.black}
+        bg={colors.white}
         height='20vh'
         width='100%'
         mt='20vh'
@@ -32,33 +30,10 @@ const Home = () => {
           fontFamily={font.family.body}
           fontWeight={font.weight.bold}
           fontSize={sizes.md}
-          color={colors.purple}
+          color={colors.black}
         >
-          CUSTOM REACT COMPONENTS 
-            <Text color={colors.white}>
-              FOR USE WITH EVERYDAY REACT PROJECTS
-            </Text>
+          FOOTERS
         </Text>
-      </Flex>
-      <Flex 
-        mt='10vh'
-        height='30vh' 
-        width='100%'
-      >
-        <Flex
-          flexDirection='column'
-          width={1/4}
-          textAlign='center'
-        >
-          <Link href='/footers'> 
-            <MenuItem
-              fontSize={sizes.base}
-              color={colors.white}
-              mb={sizes.base}>
-              FOOTERS
-            </MenuItem>
-          </Link>
-        </Flex>
       </Flex>
     </Layout>
   )

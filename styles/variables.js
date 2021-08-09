@@ -21,6 +21,7 @@ const colors = {
   white: '#FFFFFF',
   black: '#000000',
   purple: '#B431FF',
+  yellow: '#FFFF00',
   transparent: 'rgba(255,255,255,0)',
   overlay: 'rgba(00,00,00,0.5)',
 }
