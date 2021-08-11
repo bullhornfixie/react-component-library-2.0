@@ -1,5 +1,6 @@
 import { Flex, Text } from 'rebass'
 import { colors, font, sizes } from '../../styles/variables.js'
+import Link from 'next/link'
 
 const Header = () => (
   <Flex 
@@ -15,7 +16,9 @@ const Header = () => (
       fontSize={sizes.sm}
       fontWeight={font.weight.bold}
     >
-      React Component Library 2.0
+      <Link href='/'> 
+        React Component Library 2.0
+      </Link>
     </Text>
   </Flex>
 )
