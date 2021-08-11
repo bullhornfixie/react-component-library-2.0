@@ -16,7 +16,7 @@ const MenuItem = styled.a`
   }
 `
 
-const Home = () => {
+const Footers = () => {
   return (
     <Layout backgroundColor={colors.white}>
       <Flex
@@ -34,11 +34,10 @@ const Home = () => {
         >
           FOOTERS
         </Text>
-       
       </Flex>
       <Footer1 />
     </Layout>
   )
 }
 
-export default Home 
+export default Footers
