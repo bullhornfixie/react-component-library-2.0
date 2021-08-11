@@ -61,4 +61,12 @@ const font = {
   },
 }
 
-export { breakpoints, colors, coverImage, easing, font, sizes, transitions }
+export { 
+  breakpoints, 
+  colors, 
+  coverImage, 
+  easing, 
+  font, 
+  sizes, 
+  transitions 
+}

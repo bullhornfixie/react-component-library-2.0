@@ -21,7 +21,6 @@ const Footers = () => {
     <Layout backgroundColor={colors.white}>
       <Flex
         flexDirection='column'
-
         width='100%'
         px={sizes.md}
       >
@@ -37,7 +36,6 @@ const Footers = () => {
         </Flex>
        <Footer1 />
       </Flex>
-     
     </Layout>
   )
 }
