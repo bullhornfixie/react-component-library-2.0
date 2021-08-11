@@ -8,6 +8,7 @@ const Layout = ({children, backgroundColor}) => (
   <Header />
     <Flex 
       flexDirection='column'
+      alignItems='center'
       height='90vh' 
       bg={backgroundColor}
     >

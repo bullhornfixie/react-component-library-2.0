@@ -47,7 +47,7 @@ const Footer1 = () => (
       pt={sizes.base}
     >
       <Text color={colors.white} mb={sizes.sm}>
-        SUBSCRIBE US
+        FOLLOW US
       </Text>
       <a href="https://www.instagram.com/">
         <FaInstagram color={colors.white} size={30} />

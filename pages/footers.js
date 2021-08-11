@@ -20,22 +20,24 @@ const Footers = () => {
   return (
     <Layout backgroundColor={colors.white}>
       <Flex
-        bg={colors.purple}
-        height='20vh'
+        flexDirection='column'
+
         width='100%'
-        justifyContent='center'
-        alignItems='center'
+        px={sizes.md}
       >
-        <Text
-          fontFamily={font.family.body}
-          fontWeight={font.weight.bold}
-          fontSize={sizes.md}
-          color={colors.white}
-        >
-          FOOTERS
-        </Text>
+        <Flex justifyContent='center'> 
+          <Text
+            fontFamily={font.family.body}
+            fontWeight={font.weight.bold}
+            fontSize={sizes.md}
+            color={colors.purple}
+          >
+            FOOTER STYLE 1
+          </Text>
+        </Flex>
+       <Footer1 />
       </Flex>
-      <Footer1 />
+     
     </Layout>
   )
 }
