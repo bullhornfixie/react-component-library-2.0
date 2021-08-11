@@ -9,6 +9,7 @@ const MenuItem = styled.a`
   font-size: ${sizes.base}px;
   color: ${colors.white};
   font-weight: ${font.weight.bold};
+  padding-bottom: 16px;
   opacity: 1;
   &:hover {
     opacity: 0.7;
@@ -53,9 +54,15 @@ const Home = () => {
           <Link href='/footers'> 
             <MenuItem
               fontSize={sizes.base}
-              color={colors.white}
-              mb={sizes.base}>
+              color={colors.white}>
               FOOTERS
+            </MenuItem>
+          </Link>
+          <Link href='/buttons'> 
+            <MenuItem
+              fontSize={sizes.base}
+              color={colors.white}>
+              BUTTONS
             </MenuItem>
           </Link>
         </Flex>
