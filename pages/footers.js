@@ -3,6 +3,7 @@ import { colors, font, sizes, easing } from '../styles/variables'
 import { Flex, Text } from 'rebass'
 import Link from 'next/link'
 import styled from 'styled-components'
+import Footer1 from '../components/footer1'
 
 const MenuItem = styled.a`
   transition: ${easing.default};
@@ -19,10 +20,9 @@ const Home = () => {
   return (
     <Layout backgroundColor={colors.white}>
       <Flex
-        bg={colors.white}
+        bg={colors.purple}
         height='20vh'
         width='100%'
-        mt='20vh'
         justifyContent='center'
         alignItems='center'
       >
@@ -30,11 +30,13 @@ const Home = () => {
           fontFamily={font.family.body}
           fontWeight={font.weight.bold}
           fontSize={sizes.md}
-          color={colors.black}
+          color={colors.white}
         >
           FOOTERS
         </Text>
+       
       </Flex>
+      <Footer1 />
     </Layout>
   )
 }
