@@ -1,9 +1,7 @@
 import Layout from '../components/common/layout'
 import { colors, font, sizes, easing, spacing } from '../styles/variables'
 import { Flex, Text } from 'rebass'
-import Link from 'next/link'
-import styled from 'styled-components'
-import Footer1 from '../components/footer1'
+import Slider1 from '../components/slider1'
 
 
 const Sliders = () => {
@@ -25,7 +23,11 @@ const Sliders = () => {
             SLIDER STYLE 1
           </Text>
         </Flex>
-       <Footer1 />
+       <Slider1>
+         <Text color={colors.yellow}>Hello</Text>
+         <Text color={colors.yellow}>Hello</Text>
+         <Text color={colors.yellow}>Hello</Text>
+       </Slider1>
       </Flex>
     </Layout>
   )
