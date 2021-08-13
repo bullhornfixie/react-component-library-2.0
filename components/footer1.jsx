@@ -16,12 +16,11 @@ const Footer1 = () => (
   <>
     <Flex
       width={1/1}
-      mt={sizes.xl}
-      minHeight="180px"
+      minHeight='180px'
       fontFamily={"Helvetica"}
       fontSize={sizes.sm0}
-      flexDirection="row"
-      lineHeight="2"
+      flexDirection='row'
+      lineHeight={2}
     >  
       <Column>
         <Text color={colors.white} mb={sizes.sm}>LOGO</Text>

@@ -61,6 +61,14 @@ const font = {
   },
 }
 
+const spacing = {
+  xs: '3vh',
+  sm: '5vh',
+  md: '7vh',
+  lg: '9vh',
+  xl: '11vh',
+}
+
 export { 
   breakpoints, 
   colors, 
@@ -68,5 +76,6 @@ export {
   easing, 
   font, 
   sizes, 
-  transitions 
+  transitions,
+  spacing,
 }

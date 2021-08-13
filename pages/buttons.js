@@ -1,7 +1,6 @@
 import Layout from '../components/common/layout'
-import { colors, font, sizes, easing } from '../styles/variables'
+import { colors, font, sizes, easing, spacing } from '../styles/variables'
 import { Flex, Text } from 'rebass'
-import Link from 'next/link'
 import styled from 'styled-components'
 import Button1 from '../components/button1'
 
@@ -29,7 +28,7 @@ const Buttons = () => {
             fontWeight={font.weight.bold}
             fontSize={sizes.md}
             color={colors.purple}
-            mb={sizes.md}
+            mb={spacing.sm}
           >
             BUTTON STYLE 1
           </Text>
