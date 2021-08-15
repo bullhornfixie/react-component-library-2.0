@@ -76,6 +76,13 @@ const Home = () => {
               SLIDERS
             </MenuItem>
           </Link>
+          <Link href='/shapes'> 
+            <MenuItem
+              fontSize={sizes.base}
+              color={colors.white}>
+              SHAPES
+            </MenuItem>
+          </Link>
         </Flex>
       </Flex>
     </Layout>

@@ -9,7 +9,7 @@ const fadeIn = keyframes`
 `
 
 const SlideContainer = styled(Box)`
-  overflow: visible;
+  overflow: visible
   position: relative;
   opacity: 0;
   transform: translateX(100vw);
