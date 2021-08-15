@@ -4,7 +4,7 @@ import { colors } from '../styles/variables'
 const Shape1 = ({color}) => (
   <Box width='1000px'
     sx={{
-        border: `1px solid ${color || colors.purple}`
+        border: `1px solid ${color || colors.black}`
     }}
   />
 )
