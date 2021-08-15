@@ -9,6 +9,7 @@ const Sliders = () => {
     <Layout backgroundColor={colors.white}>
       <Flex
         flexDirection='column'
+        alignItems='center'
         width='100%'
         px={sizes.md}
       >
