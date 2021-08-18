@@ -1,8 +1,14 @@
 import Layout from '../components/common/layout'
-import { colors, font, sizes, easing, spacing } from '../styles/variables'
-import { Flex, Text } from 'rebass'
-import Slider1 from '../components/slider1'
+import { colors, font, sizes, spacing } from '../styles/variables'
+import { Flex, Text, Image } from 'rebass'
+import styled from 'styled-components'
+import SliderWrapper from '../components/slider'
 
+const Heading = styled(Text)`
+  font-family: ${font.family.body};
+  font-weight: ${font.weight.bold};
+  color: ${colors.purple};
+`
 
 const Sliders = () => {
   return (
@@ -13,22 +19,15 @@ const Sliders = () => {
         width='100%'
         px={sizes.md}
       >
-        <Flex justifyContent='center'> 
-          <Text
-            fontFamily={font.family.body}
-            fontWeight={font.weight.bold}
-            fontSize={sizes.md}
-            color={colors.purple}
-            mb={spacing.sm}
-          >
-            SLIDER STYLE 1
-          </Text>
+        <Flex justifyContent='center' fontSize={sizes.md} my={spacing.sm}> 
+          <Heading>SLIDER</Heading>
         </Flex>
-       <Slider1>
-         <Text color={colors.yellow}>Hello</Text>
-         <Text color={colors.yellow}>Hello</Text>
-         <Text color={colors.yellow}>Hello</Text>
-       </Slider1>
+        <Flex> 
+        <SliderWrapper>
+          <Image src='screenshot.png' />
+          <Image src='screenshot.png' />
+        </SliderWrapper>
+        </Flex>
       </Flex>
     </Layout>
   )
