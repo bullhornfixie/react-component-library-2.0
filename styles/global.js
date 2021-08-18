@@ -1,8 +1,14 @@
+
+const global = `
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -14,9 +20,8 @@ a {
 * {
   box-sizing: border-box;
 }
+`
 
-.slick-dots {
-  position: relative;
-  bottom: 0;
-  text-align: center;
-}
+export default global 
+
+

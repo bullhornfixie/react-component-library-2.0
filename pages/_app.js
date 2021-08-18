@@ -1,7 +1,21 @@
-import '../styles/globals.css'
+import App from 'next/app'
+import { createGlobalStyle } from 'styled-components'
+import global from '../styles/global'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+const GlobalStyle = createGlobalStyle`
+  ${global}
+`
+
+class MyApp extends App {
+  render() {
+    const { Component, pageProps } = this.props
+    return (
+      <>
+        <GlobalStyle />
+        <Component {...pageProps} />
+      </>
+    )
+  }
 }
 
 export default MyApp
