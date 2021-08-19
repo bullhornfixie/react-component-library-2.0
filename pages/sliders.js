@@ -2,7 +2,7 @@ import Layout from '../components/common/layout'
 import { colors, font, sizes, spacing } from '../styles/variables'
 import { Flex, Text, Image } from 'rebass'
 import styled from 'styled-components'
-import SliderWrapper from '../components/slider'
+import Slider1 from '../components/slider1'
 
 const Heading = styled(Text)`
   font-family: ${font.family.body};
@@ -23,10 +23,8 @@ const Sliders = () => {
           <Heading>SLIDER</Heading>
         </Flex>
         <Flex> 
-        <SliderWrapper>
-          <Image src='screenshot.png' />
-          <Image src='screenshot.png' />
-        </SliderWrapper>
+        <Slider1>
+        </Slider1>
         </Flex>
       </Flex>
     </Layout>

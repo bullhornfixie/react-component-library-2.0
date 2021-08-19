@@ -15,3 +15,7 @@ In the terminal:
 - `npm run dev`
 - open `http://localhost:3000`
 
+## Useful Resources 
+
+- [react-slick](https://bit.dev/akiran/react-slick/slider?example=5cc70773f69def001417a6b6)
+
